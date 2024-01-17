@@ -1,0 +1,43 @@
+:root {
+    --active-brightness: 0.85;
+    --border-radius: 5px;
+    --box-shadow: 2px 2px 10px;
+    --color-accent: #e67e220b; /* Світло-помаранчевий */
+    --color-bg: #1a1a1a; /* Темний фон */
+    --color-bg-secondary: #333; /* Темний сірий */
+    --color-link: #e67e22; /* Помаранчевий */
+    --color-secondary: #ff7f50; /* Кораловий */
+    --color-secondary-accent: #ff7f500b; /* Прозорий кораловий */
+    --color-shadow: #2c2c2c; /* Темно-сірий тінь */
+    --color-table: #e67e22; /* Помаранчевий */
+    --color-text: #fff; /* Білий текст */
+    --color-text-secondary: #ccc; /* Світло-сірий */
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --hover-brightness: 1.2;
+    --justify-important: center;
+    --justify-normal: left;
+    --line-height: 1.5;
+    --width-card: 285px;
+    --width-card-medium: 460px;
+    --width-card-wide: 800px;
+    --width-content: 1080px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root[color-mode="user"] {
+        --color-accent: #d354004f; /* Темний помаранчевий */
+        --color-bg: #121212; /* Ще темніший фон */
+        --color-bg-secondary: #262626; /* Темно-сірий */
+        --color-link: #d35400; /* Темний помаранчевий */
+        --color-secondary: #ff6347; /* Томатний */
+        --color-secondary-accent: #ff63474f; /* Прозорий томатний */
+        --color-shadow: #1e1e1e; /* Темний тінь */
+        --color-table: #d35400; /* Темний помаранчевий */
+        --color-text: #eee; /* Світлий текст */
+        --color-text-secondary: #b3b3b3; /* Світло-сірий */
+    }
+}
+
+html {
+    /* ... */
+}
