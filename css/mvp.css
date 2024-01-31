@@ -80,7 +80,7 @@ hr {
     background-color: var(--color-bg-secondary);
     border: none;
     height: 1px;
-    margin: 4rem 0;
+    margin: 2rem 0;
     width: 100%;
 }
 
@@ -143,6 +143,11 @@ header nav img, footer nav img {
     margin: 1rem 0;
     border-radius: 50%;
 }
+footer nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3rem;
+}
 
 section header {
     padding-top: 0;
@@ -155,7 +160,7 @@ nav {
     display: flex;
     font-weight: bold;
     justify-content: space-between;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
 }
 
 nav ul {
@@ -227,6 +232,7 @@ details {
 details summary {
     font-weight: bold;
     cursor: pointer;
+    font-size: 0.9rem;
 }
 
 h1,
