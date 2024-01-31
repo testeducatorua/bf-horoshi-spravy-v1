@@ -320,6 +320,10 @@ input[type="submit"] {
     margin: 0.5rem 0;
     padding: 1rem 2rem;
 }
+a b.black {
+    background-color: #000;
+    border-color: #333;
+}
 
 button,
 input[type="submit"] {
